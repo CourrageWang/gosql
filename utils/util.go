@@ -82,3 +82,8 @@ func GetNowTime() string {
 func Test() string {
 	return "test"
 }
+
+//来自分支feature-pass 的更新
+func setPass(params []string) string {
+	return "this is from feature-pass"
+}
