@@ -2,7 +2,7 @@ package gosql
 
 import (
 	"fmt"
-	"github.com/CourrageWang/gosql/utils"
+	"github.com/gosql/utils"
 	"errors"
 	"strings"
 	"database/sql"
