@@ -18,4 +18,4 @@ res, err := db.Table("users").Data(data).Insert()
 	}
 3 、提供sql日志管理 
 fmt.Println(db.LastSql) //打印sql日志
-4、支持简单的事务管理机制
+4、支持简单的事务管理机制.
